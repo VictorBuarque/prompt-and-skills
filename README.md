@@ -19,9 +19,19 @@ It focuses on implementation-oriented prompts that drive real code changes, not 
 ```text
 .
 ├── prompts/
-│   └── prompt-agent.md
+│   ├── prompt-agent.md
+│   ├── prompt-ask.md
+│   ├── prompt-plan.md
+│   └── prompt-study.md
 └── README.md
 ```
+
+## Default stack (high level)
+
+Prompts assume **React + TypeScript + Node.js** unless otherwise stated.  
+**Web:** Next.js (App Router) by default.  
+**Mobile (iOS/Android):** **React Native** with **Expo** as the default framework when the solution is mobile.  
+Notifications (push/local): **expo-notifications** when applicable.
 
 ## Prompt Design Principles
 
