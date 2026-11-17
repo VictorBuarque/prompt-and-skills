@@ -85,7 +85,7 @@ A PR missing any required item is not reviewable. Name the gap. Do not approve f
 - Screenshot or short video, when a user will see the change
 - What was left unmodified, and how that was checked
 
-The author writes the four anchors, the Proof section, and Confidence into the PR description. The reviewer re-checks them and adds the verdict.
+The author writes the four anchors, the Proof section, Confidence, and Experiment into the PR description. The reviewer re-checks them and adds the verdict. When the PR is prepared with the pr-markdown skill, those sections live in `PR.md`.
 
 ## When the change may move faster
 
